@@ -1,0 +1,85 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.topNav {
+  height: 2rem;
+  background-color: #080d2d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-family: "WorkSans-Medium", "Helvetica", "sans-serif";
+  color: #c0c2d3;
+  font-size: 11px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.topText {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.topText:hover {
+  color: white;
+}
+
+.topLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.topLink {
+  padding: 0;
+  margin: 10px;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.topLink:hover {
+  color: white;
+}
+
+.topLink:nth-child(1) {
+  color: #01d0c0;
+  margin: 5px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #1d274c;
+}
+
+.bottomNav {
+  width: 100%;
+  height: 72px;
+  background-color: #f9fafe;
+}
+/*# sourceMappingURL=Navbar.module.css.map */
