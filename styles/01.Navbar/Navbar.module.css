@@ -3,19 +3,35 @@
   display: -ms-flexbox;
   display: flex;
   position: fixed;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  font-family: "WorkSans-Medium", "Helvetica", "sans-serif";
 }
 
 .topNav {
-  height: 2rem;
   background-color: #080d2d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #c0c2d3;
+  font-size: 10px;
+  letter-spacing: 1px;
+  padding: 2px;
+}
+
+.width {
+  width: 73%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -29,11 +45,6 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  font-family: "WorkSans-Medium", "Helvetica", "sans-serif";
-  color: #c0c2d3;
-  font-size: 11px;
-  padding-left: 50px;
-  padding-right: 50px;
 }
 
 .topText {
@@ -58,7 +69,7 @@
 
 .topLink {
   padding: 0;
-  margin: 10px;
+  margin: 8px;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
   cursor: pointer;
@@ -70,16 +81,115 @@
 
 .topLink:nth-child(1) {
   color: #01d0c0;
-  margin: 5px;
+  margin: 4px;
   cursor: pointer;
-  padding: 5px;
+  padding: 4px;
   border-radius: 5px;
   background-color: #1d274c;
 }
 
 .bottomNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 100%;
-  height: 72px;
+  height: 60px;
   background-color: #f9fafe;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.navRow {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 12px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 14px;
+  cursor: pointer;
+}
+
+.navLink:hover {
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+.navLink:hover .navArrow {
+  top: 6px;
+}
+
+.navText {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.navArrow {
+  position: relative;
+  margin-left: 3px;
+  top: 5px;
+  font-size: 5px;
+}
+
+.auth {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 13px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-weight: 600;
+}
+
+.login {
+  margin-right: 20px;
+}
+
+.signUp {
+  padding: 9px 20px 9px 20px;
+  background-color: #0069ff;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
 }
 /*# sourceMappingURL=Navbar.module.css.map */
