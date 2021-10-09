@@ -7,6 +7,7 @@ $column: 740px;
   align-items: center;
   justify-content: center;
   padding-top: 90px;
+  flex-direction: column;
   @media screen and (max-width: $column) {
     padding-top: 90px;
   }
@@ -28,9 +29,11 @@ $column: 740px;
 
 .text {
   display: flex;
+  position: relative;
+  top: 20px;
   flex-direction: column;
   width: 100%;
-  margin: 30px;
+  margin: 50px;
 
   @media screen and (max-width: $column) {
     margin: 0px 0px 50px 0px;

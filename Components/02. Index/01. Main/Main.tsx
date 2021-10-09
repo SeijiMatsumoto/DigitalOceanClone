@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../../../styles/02. Index/01. Main/Main.module.css";
 import Image from "next/image";
+import Stats from "./Stats";
 
 const Main: React.FC = () => {
   return (
@@ -62,6 +63,7 @@ const Main: React.FC = () => {
           </div>
         </div>
       </div>
+      <Stats />
     </div>
   );
 };

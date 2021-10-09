@@ -6,6 +6,10 @@
   left: 0;
   width: 100vw;
   flex-direction: column;
+  z-index: 50;
+  @media screen and (max-width: 1260px) {
+    position: absolute;
+  }
 }
 
 .navComputer {
