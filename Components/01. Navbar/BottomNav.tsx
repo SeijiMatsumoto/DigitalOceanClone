@@ -1,16 +1,16 @@
 import React from "react";
-import styles from "../../styles/01.Navbar/Navbar.module.css";
+import styles from "../../styles/01. Navbar/Navbar.module.css";
 import Image from "next/image";
 
-const BottomNav = () => {
+const BottomNav: React.FC = () => {
   return (
     <div className={styles.bottomNav}>
       <div className={styles.width}>
         <Image
           alt="logo"
           src="/images/do-logo.png"
-          height={35}
-          width={35}
+          height={40}
+          width={40}
         ></Image>
         <div className={styles.navRow}>
           <div className={styles.navLinks}>

@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "../../styles/01.Navbar/Navbar.module.css";
+import styles from "../../styles/01. Navbar/Navbar.module.css";
 
-const TopNav = () => {
+const TopNav: React.FC = () => {
   return (
     <div className={styles.topNav}>
       <div className={styles.width}>
