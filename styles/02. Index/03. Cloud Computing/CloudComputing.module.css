@@ -1,0 +1,99 @@
+.container {
+  position: relative;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 120px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.subCont {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1300px;
+}
+
+@media screen and (max-width: 1400px) {
+  .subCont {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .subCont {
+    margin-top: 150px;
+  }
+}
+
+.title {
+  font-weight: bold;
+  font-size: 37px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.paragraphs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media screen and (max-width: 740px) {
+  .paragraphs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.desc {
+  margin-right: 45px;
+  margin-bottom: 50px;
+  width: 480px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.desc2 {
+  margin-bottom: 50px;
+  width: 500px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.text {
+  color: #464646;
+}
+
+.link {
+  margin-top: 20px;
+  color: #0069ff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.video {
+  width: 100%;
+  border-radius: 10px;
+}
+/*# sourceMappingURL=CloudComputing.module.css.map */

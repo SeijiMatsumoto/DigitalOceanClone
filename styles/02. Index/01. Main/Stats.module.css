@@ -1,6 +1,6 @@
 .container {
   position: relative;
-  top: 100px;
+  margin-top: 100px;
   width: 90%;
   height: 200px;
   display: -webkit-box;
@@ -44,7 +44,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100px;
 }
 
 @media screen and (max-width: 740px) {
@@ -61,6 +60,7 @@
 }
 
 .statCol {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

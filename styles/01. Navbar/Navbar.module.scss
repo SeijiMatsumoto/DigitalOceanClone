@@ -1,4 +1,8 @@
+$macbook: 1400px;
+$column: 740px;
+
 .container {
+  z-index: 50;
   display: flex;
   position: sticky;
   justify-content: center;
@@ -6,7 +10,6 @@
   left: 0;
   width: 100vw;
   flex-direction: column;
-  z-index: 50;
   @media screen and (max-width: 1260px) {
     position: absolute;
   }
@@ -35,6 +38,10 @@
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
+
+  @media screen and (min-width: $macbook) {
+    width: 1350px;
+  }
 }
 
 .topText {
@@ -74,6 +81,7 @@
   width: 100%;
   height: 75px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: white;
   align-items: center;
   flex-direction: row;
 }

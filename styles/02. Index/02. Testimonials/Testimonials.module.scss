@@ -1,0 +1,49 @@
+$column: 740px;
+$macbook: 1400px;
+
+.container {
+  position: relative;
+  width: 100vw;
+  background-color: #f3f4f9;
+  padding: 35px 0;
+  @media screen and (max-width: $column) {
+    top: 200px;
+  }
+}
+
+.topRow {
+  // width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+}
+
+.topRow::-webkit-scrollbar {
+  display: none;
+}
+
+.bottomRow {
+  display: flex;
+  flex-direction: row;
+  overflow-y: scroll;
+}
+
+.bottomRow::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  margin: 20px;
+  min-height: 200px;
+  min-width: 350px;
+  border-radius: 5px;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+  background-color: white;
+  display: flex;
+}

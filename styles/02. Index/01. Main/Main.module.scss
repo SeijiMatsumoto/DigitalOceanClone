@@ -2,6 +2,7 @@ $macbook: 1400px;
 $column: 740px;
 
 .container {
+  position: relative;
   width: 100%;
   display: flex;
   align-items: center;
