@@ -9,7 +9,13 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 120px;
+  padding-top: 90px;
+}
+
+@media screen and (max-width: 740px) {
+  .container {
+    padding-top: 90px;
+  }
 }
 
 .topDiv {
@@ -23,6 +29,22 @@
           flex-direction: row;
 }
 
+@media screen and (min-width: 1400px) {
+  .topDiv {
+    width: 1400px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .topDiv {
+    width: 93%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .text {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -32,7 +54,14 @@
       -ms-flex-direction: column;
           flex-direction: column;
   width: 100%;
-  margin: 50px;
+  margin: 30px;
+}
+
+@media screen and (max-width: 740px) {
+  .text {
+    margin: 0px 0px 50px 0px;
+    width: 95%;
+  }
 }
 
 .topText {
@@ -41,10 +70,24 @@
   color: #031b4e;
 }
 
+@media screen and (max-width: 740px) {
+  .topText {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+}
+
 .bottomText {
   margin-top: 20px;
   font-size: 25px;
   color: #535772;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 740px) {
+  .bottomText {
+    font-size: 23px;
+  }
 }
 
 .signup {
@@ -74,6 +117,17 @@
   width: 80%;
 }
 
+@media screen and (max-width: 740px) {
+  .formDiv {
+    width: 100%;
+  }
+}
+
+.title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
 .form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -87,10 +141,12 @@
 
 .input {
   margin: 10px 0 10px 0;
-  height: 50px;
+  height: 56px;
   padding: 10px;
   border-radius: 8px;
   border: 1px solid #c0c2d3;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+          box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -111,7 +167,8 @@
 }
 
 .left {
-  width: 70%;
+  width: 100%;
+  margin-right: 10px;
 }
 
 .deployBtn {
@@ -163,13 +220,14 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 20px;
+  padding: 10px;
+  width: 40px;
   border-radius: 8px;
   background-color: #ebebeb;
   cursor: pointer;
   -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 .btn:hover {
@@ -186,6 +244,9 @@
       -ms-flex-direction: row;
           flex-direction: row;
   display: flex;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  font-size: 15px;
 }
 
 .terms {

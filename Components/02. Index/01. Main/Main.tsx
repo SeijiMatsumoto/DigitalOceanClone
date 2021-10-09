@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../../../styles/02. Index/01. Main/Main.module.css";
+import Image from "next/image";
 
 const Main: React.FC = () => {
   return (
@@ -35,8 +36,22 @@ const Main: React.FC = () => {
                   <div className={styles.deployBtn}>Deploy in seconds</div>
                 </div>
                 <div className={styles.right}>
-                  <div className={styles.btn}>G1</div>
-                  <div className={styles.btn}>G2</div>
+                  <div className={styles.btn}>
+                    <Image
+                      src="/images/google.png"
+                      alt="google"
+                      height={40}
+                      width={40}
+                    ></Image>
+                  </div>
+                  <div className={styles.btn}>
+                    <Image
+                      src="/images/github.png"
+                      alt="github"
+                      height={30}
+                      width={30}
+                    ></Image>
+                  </div>
                 </div>
               </span>
             </form>

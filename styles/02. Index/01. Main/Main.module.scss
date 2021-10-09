@@ -1,34 +1,61 @@
+$macbook: 1400px;
+$column: 740px;
+
 .container {
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 120px;
+  padding-top: 90px;
+  @media screen and (max-width: $column) {
+    padding-top: 90px;
+  }
 }
 
 .topDiv {
   width: 95%;
   display: flex;
   flex-direction: row;
+
+  @media screen and (min-width: $macbook) {
+    width: 1400px;
+  }
+  @media screen and (max-width: $column) {
+    width: 93%;
+    flex-direction: column;
+  }
 }
 
 .text {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 50px;
+  margin: 30px;
+
+  @media screen and (max-width: $column) {
+    margin: 0px 0px 50px 0px;
+    width: 95%;
+  }
 }
 
 .topText {
   font-size: 55px;
   font-weight: 900;
   color: #031b4e;
+  @media screen and (max-width: $column) {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
 }
 
 .bottomText {
   margin-top: 20px;
   font-size: 25px;
   color: #535772;
+  letter-spacing: 1px;
+  @media screen and (max-width: $column) {
+    font-size: 23px;
+  }
 }
 
 .signup {
@@ -43,6 +70,14 @@
   flex-direction: column;
   justify-content: flex-start;
   width: 80%;
+  @media screen and (max-width: $column) {
+    width: 100%;
+  }
+}
+
+.title {
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .form {
@@ -53,11 +88,13 @@
 
 .input {
   margin: 10px 0 10px 0;
-  height: 50px;
+  height: 56px;
   padding: 10px;
   border-radius: 8px;
   border: 1px solid #c0c2d3;
-  // box-shadow: 0 4px 0 rgb(91 105 135 / 20%);
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+    rgba(0, 0, 0, 0.07) 0px 16px 16px;
   box-sizing: border-box;
 }
 
@@ -70,7 +107,8 @@
 }
 
 .left {
-  width: 70%;
+  width: 100%;
+  margin-right: 10px;
 }
 
 .deployBtn {
@@ -100,12 +138,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
+  width: 40px;
   border-radius: 8px;
   background-color: rgb(235, 235, 235);
   cursor: pointer;
   transition: 0.2s ease-in-out;
-  margin-left: 10px;
+  margin-left: 15px;
   &:hover {
     background-color: rgb(231, 231, 231);
   }
@@ -116,6 +155,9 @@
   display: flex;
   flex-direction: row;
   display: flex;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  font-size: 15px;
 }
 
 .terms {

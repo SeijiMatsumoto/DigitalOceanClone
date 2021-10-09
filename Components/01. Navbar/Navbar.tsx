@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "../../styles/01. Navbar/Navbar.module.css";
-import Image from "next/image";
 import TopNav from "./TopNav";
 import BottomNav from "./BottomNav";
 import MobileNav from "./MobileNav";
