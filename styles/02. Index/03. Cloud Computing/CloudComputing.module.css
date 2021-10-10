@@ -111,6 +111,7 @@
 }
 
 .container2 {
+  margin-top: -50px;
   width: 1300px;
   display: -webkit-box;
   display: -ms-flexbox;
