@@ -2,7 +2,6 @@ html,
 body {
   font-family: "WorkSans-Medium", "Helvetica", "sans-serif";
   background-color: #f9fafe;
-  border-right: 1px solid red;
   overflow: auto;
   margin: 0;
   padding: 0;

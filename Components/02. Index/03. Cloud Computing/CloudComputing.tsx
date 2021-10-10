@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../../../styles/02. Index/03. Cloud Computing/CloudComputing.module.css";
+import UnderCloud from "./UnderCloud";
 
 const CloudComputing: React.FC = () => {
   return (
@@ -28,6 +29,7 @@ const CloudComputing: React.FC = () => {
           <source src="/control-panel-video.mp4" type="video/mp4" />
         </video>
       </div>
+      <UnderCloud />
     </div>
   );
 };
