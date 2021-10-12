@@ -8,10 +8,10 @@ const MobileNav = () => {
       <Image
         alt="logo"
         src="/images/do-logo.png"
-        height={34}
-        width={34}
+        height={41}
+        width={41}
       ></Image>
-      <div>=</div>
+      <div className={styles.menuBtn}>=</div>
     </div>
   );
 };

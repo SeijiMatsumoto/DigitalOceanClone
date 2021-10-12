@@ -5,6 +5,7 @@ import Main from "../Components/02. Index/01. Main/Main";
 import Testimonials from "../Components/02. Index/02. Testimonials/Testimonials";
 import CloudComputing from "../Components/02. Index/03. Cloud Computing/CloudComputing";
 import Scale from "../Components/02. Index/04. Scale/Scale";
+import Community from "../Components/02. Index/05. Community/Community";
 import Footer from "../Components/Footer/Footer";
 
 const Home: NextPage = () => {
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
       <Testimonials />
       <CloudComputing />
       <Scale />
+      <Community />
       <Footer />
     </div>
   );

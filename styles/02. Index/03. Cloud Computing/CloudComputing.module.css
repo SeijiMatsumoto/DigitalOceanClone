@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 1400px) {
   .subCont {
-    width: 90%;
+    width: 95%;
   }
 }
 
@@ -45,6 +45,13 @@
   font-size: 37px;
   width: 400px;
   margin-bottom: 20px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1400px) {
+  .title {
+    width: 95%;
+  }
 }
 
 .paragraphs {

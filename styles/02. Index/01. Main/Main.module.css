@@ -1,5 +1,6 @@
 .container {
   position: relative;
+  margin-top: 150px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -20,6 +21,12 @@
 @media screen and (max-width: 740px) {
   .container {
     padding-top: 90px;
+  }
+}
+
+@media screen and (max-width: 1260px) {
+  .container {
+    margin-top: 60px;
   }
 }
 

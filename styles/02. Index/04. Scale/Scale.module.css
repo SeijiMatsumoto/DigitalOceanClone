@@ -43,7 +43,7 @@
 @media screen and (max-width: 740px) {
   .subCont {
     padding: 70px 0 100px 0;
-    padding-bottom: 300px;
+    padding-bottom: 400px;
   }
 }
 
@@ -64,7 +64,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 90%;
+    width: 85%;
   }
 }
 
@@ -178,7 +178,6 @@
 @media screen and (max-width: 740px) {
   .stat {
     width: 95%;
-    margin-bottom: 25px;
   }
 }
 
@@ -225,9 +224,9 @@
 
 @media screen and (max-width: 740px) {
   .bottomCont {
-    bottom: 375px;
+    bottom: 450px;
     left: 0;
-    width: 95%;
+    width: 90%;
   }
 }
 

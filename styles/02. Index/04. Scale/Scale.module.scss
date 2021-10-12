@@ -26,7 +26,7 @@ $column: 740px;
   }
   @media screen and (max-width: $column) {
     padding: 70px 0 100px 0;
-    padding-bottom: 300px;
+    padding-bottom: 400px;
   }
 }
 
@@ -36,7 +36,7 @@ $column: 740px;
   flex-direction: row;
   @media screen and (max-width: $macbook) {
     flex-direction: column;
-    width: 90%;
+    width: 85%;
   }
 }
 
@@ -109,7 +109,6 @@ $column: 740px;
   margin: 0px, 10px, 20px, 10px;
   @media screen and (max-width: $column) {
     width: 95%;
-    margin-bottom: 25px;
   }
 }
 
@@ -136,14 +135,13 @@ $column: 740px;
   flex-direction: row;
   align-items: flex-end;
   @media screen and (max-width: $macbook) {
-    // bottom: 200px;
     left: 0;
     width: 95%;
   }
   @media screen and (max-width: $column) {
-    bottom: 375px;
+    bottom: 450px;
     left: 0;
-    width: 95%;
+    width: 90%;
   }
 }
 

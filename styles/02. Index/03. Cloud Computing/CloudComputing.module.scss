@@ -17,7 +17,7 @@ $macbook: 1400px;
   width: 1300px;
 
   @media screen and (max-width: $macbook) {
-    width: 90%;
+    width: 95%;
   }
 
   @media screen and (max-width: $column) {
@@ -30,6 +30,10 @@ $macbook: 1400px;
   font-size: 37px;
   width: 400px;
   margin-bottom: 20px;
+  width: 100%;
+  @media screen and (max-width: $macbook) {
+    width: 95%;
+  }
 }
 
 .paragraphs {
