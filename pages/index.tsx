@@ -7,6 +7,7 @@ import CloudComputing from "../Components/02. Index/03. Cloud Computing/CloudCom
 import Scale from "../Components/02. Index/04. Scale/Scale";
 import Community from "../Components/02. Index/05. Community/Community";
 import LinkCards from "../Components/02. Index/06. Link Cards/LinkCards";
+import GetStarted from "../Components/02. Index/07. Get Started/GetStarted";
 import Footer from "../Components/Footer/Footer";
 
 const Home: NextPage = () => {
@@ -24,6 +25,7 @@ const Home: NextPage = () => {
       <Scale />
       <Community />
       <LinkCards />
+      <GetStarted />
       <Footer />
     </div>
   );

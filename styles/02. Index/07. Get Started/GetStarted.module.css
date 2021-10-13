@@ -1,0 +1,100 @@
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subDiv {
+  width: 1280px;
+  border-radius: 5px;
+  background-image: url("https://www.digitalocean.com/static/new-cta-band-bg-image-4075c4087cf077bd979dc9af11d0fa1f.jpg");
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  margin-bottom: 100px;
+}
+
+@media screen and (max-width: 1120px) {
+  .subDiv {
+    width: 100%;
+    border-radius: 0;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .subDiv {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 35px;
+  }
+}
+
+.leftCol {
+  padding: 70px;
+  width: 40%;
+}
+
+@media screen and (max-width: 850px) {
+  .leftCol {
+    width: 90%;
+    padding: 0;
+  }
+}
+
+.title {
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.subtitle {
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.rightCol {
+  margin-left: 200px;
+}
+
+@media screen and (max-width: 879px) {
+  .rightCol {
+    margin: 25px 0 0 0;
+  }
+}
+
+.btn {
+  color: #0069ff;
+  background-color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+/*# sourceMappingURL=GetStarted.module.css.map */
