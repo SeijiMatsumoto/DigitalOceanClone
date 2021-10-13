@@ -9,7 +9,7 @@ import Community from "../Components/02. Index/05. Community/Community";
 import LinkCards from "../Components/02. Index/06. Link Cards/LinkCards";
 import GetStarted from "../Components/02. Index/07. Get Started/GetStarted";
 import Links from "../Components/02. Index/08. Links/Links";
-import Footer from "../Components/Footer/Footer";
+import Footer from "../Components/03. Footer/Footer";
 
 const Home: NextPage = () => {
   return (
