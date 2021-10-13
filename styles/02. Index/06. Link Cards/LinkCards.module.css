@@ -1,0 +1,137 @@
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subDiv {
+  width: 1280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+@media screen and (max-width: 1400px) {
+  .subDiv {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .subDiv {
+    width: 95%;
+    margin-top: -50px;
+  }
+}
+
+.cardDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 10px;
+  width: 22%;
+  overflow: hidden;
+  margin: 12px;
+  height: 100%;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+@media screen and (max-width: 1000px) {
+  .cardDiv {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .cardDiv {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.cardTop {
+  height: 150px;
+  width: 100%;
+}
+
+@media screen and (max-width: 740px) {
+  .cardTop {
+    height: auto;
+  }
+}
+
+.mainImage {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.cardBottom {
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.category {
+  margin-bottom: 20px;
+  color: #0069ff;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.statsHalf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-weight: lighter;
+  color: #535772;
+  font-size: 15px;
+}
+
+.views {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=LinkCards.module.css.map */
