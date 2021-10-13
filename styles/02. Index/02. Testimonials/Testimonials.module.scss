@@ -42,8 +42,7 @@ $macbook: 1400px;
 }
 
 .card {
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
-    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   margin: 20px;
   min-height: 200px;
   min-width: 350px;
@@ -52,4 +51,42 @@ $macbook: 1400px;
   scrollbar-width: none;
   background-color: white;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  // flex-direction: column;
+}
+
+.altCard {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  margin: 20px;
+  min-height: 170px;
+  min-width: 320px;
+  border-radius: 5px;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none;
+  background-color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.image {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+}
+
+.company {
+  font-size: 15px;
+}
+
+.review {
+  margin: 15px 0 15px;
+  font-size: 15px;
+}
+
+.person {
+  font-size: 15px;
 }

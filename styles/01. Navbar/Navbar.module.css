@@ -3,8 +3,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -251,10 +250,14 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    padding-left: 25px;
-    padding-right: 20px;
+    padding: 6px 20px 5px 35px;
     -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
             box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
+}
+
+.menuBtn {
+  font-size: 30px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=Navbar.module.css.map */

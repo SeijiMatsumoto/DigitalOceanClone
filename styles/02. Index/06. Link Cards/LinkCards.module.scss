@@ -1,0 +1,102 @@
+$macbook: 1400px;
+$column: 740px;
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subDiv {
+  // border: 1px solid red;
+  width: 1280px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 100px;
+  @media screen and (max-width: $macbook) {
+    width: 90%;
+  }
+  @media screen and (max-width: $column) {
+    width: 95%;
+    margin-top: -50px;
+  }
+}
+
+.cardDiv {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 22%;
+  overflow: hidden;
+  margin: 12px;
+  height: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+  &:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  @media screen and (max-width: 1000px) {
+    width: 45%;
+  }
+  @media screen and (max-width: $column) {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}
+
+.cardTop {
+  height: 150px;
+  width: 100%;
+  @media screen and (max-width: $column) {
+    height: auto;
+  }
+}
+
+.mainImage {
+  height: 100%;
+  width: 100%;
+}
+
+.cardBottom {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.textHalf {
+}
+
+.category {
+  margin-bottom: 20px;
+  color: rgb(0, 105, 255);
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.title {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.statsHalf {
+  display: flex;
+  flex-direction: row;
+  font-weight: lighter;
+  color: #535772;
+  font-size: 15px;
+}
+
+.date {
+}
+
+.views {
+  margin-left: 10px;
+}

@@ -1,0 +1,115 @@
+$border: 1px solid red;
+$column: 740px;
+
+@mixin flex($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+}
+
+.container {
+  @include flex(column);
+  width: 100%;
+  margin-bottom: 80px;
+  @media screen and (max-width: $column) {
+    margin-top: -300px;
+  }
+}
+
+.subDiv {
+  @include flex(column);
+  width: 1050px;
+  @media screen and (max-width: 1100px) {
+    width: 100%;
+  }
+}
+
+.textDiv {
+  @include flex(column);
+  width: 700px;
+  // height: 100px;
+  @media screen and (max-width: $column) {
+    width: 100%;
+  }
+}
+
+.title {
+  width: 650px;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  letter-spacing: -1.5px;
+  @media screen and (max-width: $column) {
+    width: 80%;
+  }
+}
+
+.desc {
+  width: 90%;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: -0.3px;
+  color: #535772;
+  font-weight: lighter;
+}
+
+.btn {
+  background-color: rgb(0, 105, 255);
+  padding: 17px 26px;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 32px 30px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  &:hover {
+    background-color: rgb(0, 98, 236);
+  }
+}
+
+.statsDiv {
+  @include flex(row);
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 97%;
+  margin-top: 35px;
+  @media screen and (max-width: $column) {
+    @include flex(column);
+  }
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 235px;
+  @media screen and (max-width: 1100px) {
+    width: 22%;
+  }
+  @media screen and (max-width: $column) {
+    margin-bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+}
+
+.statNum {
+  color: rgb(0, 105, 255);
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 8px;
+}
+
+.statDesc {
+  font-size: 20px;
+  color: #535772;
+  letter-spacing: 1.2px;
+  @media screen and (max-width: $column) {
+    text-align: center;
+  }
+}

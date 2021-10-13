@@ -1,0 +1,68 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subDiv {
+  width: 1280px;
+  border-radius: 5px;
+  background-image: url("https://www.digitalocean.com/static/new-cta-band-bg-image-4075c4087cf077bd979dc9af11d0fa1f.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  margin-bottom: 100px;
+
+  @media screen and (max-width: 1120px) {
+    width: 100%;
+    border-radius: 0;
+  }
+  @media screen and (max-width: 850px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 35px;
+  }
+}
+
+.leftCol {
+  padding: 70px;
+  width: 40%;
+  @media screen and (max-width: 850px) {
+    width: 90%;
+    padding: 0;
+  }
+}
+
+.title {
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  letter-spacing: -1px;
+}
+
+.subtitle {
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.rightCol {
+  margin-left: 200px;
+  @media screen and (max-width: 879px) {
+    margin: 25px 0 0 0;
+  }
+}
+
+.btn {
+  color: rgb(0, 105, 255);
+  background-color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}

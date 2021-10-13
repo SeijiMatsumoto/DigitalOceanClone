@@ -1,0 +1,56 @@
+$macbook: 1400px;
+$column: 740px;
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+  @media screen and (max-width: $column) {
+    margin-bottom: 0;
+  }
+}
+
+.subContainer {
+  width: 1200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  @media screen and (max-width: 1260px) {
+    width: 95%;
+  }
+  @media screen and (max-width: $column) {
+    width: 85%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.linkCol {
+  margin-right: 50px;
+  width: 30%;
+  @media screen and (max-width: $column) {
+    width: 35%;
+    margin-bottom: 40px;
+  }
+  @media screen and (max-width: 466px) {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.link {
+  margin-bottom: 12px;
+  cursor: pointer;
+  color: #535772;
+  font-weight: lighter;
+  &:hover {
+    color: black;
+  }
+}

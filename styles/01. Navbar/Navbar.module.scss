@@ -4,7 +4,7 @@ $column: 740px;
 .container {
   z-index: 50;
   display: flex;
-  position: sticky;
+  position: fixed;
   justify-content: center;
   top: 0;
   left: 0;
@@ -164,8 +164,14 @@ $column: 740px;
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    padding-left: 25px;
-    padding-right: 20px;
+    // padding-left: 25px;
+    // padding-right: 20px;
+    padding: 6px 20px 5px 35px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   }
+}
+
+.menuBtn {
+  font-size: 30px;
+  cursor: pointer;
 }

@@ -1,0 +1,84 @@
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 740px) {
+  .container {
+    margin-bottom: 0;
+  }
+}
+
+.subContainer {
+  width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+@media screen and (max-width: 1260px) {
+  .subContainer {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .subContainer {
+    width: 85%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.linkCol {
+  margin-right: 50px;
+  width: 30%;
+}
+
+@media screen and (max-width: 740px) {
+  .linkCol {
+    width: 35%;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 466px) {
+  .linkCol {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.link {
+  margin-bottom: 12px;
+  cursor: pointer;
+  color: #535772;
+  font-weight: lighter;
+}
+
+.link:hover {
+  color: black;
+}
+/*# sourceMappingURL=Links.module.css.map */
