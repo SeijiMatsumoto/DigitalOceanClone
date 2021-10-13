@@ -23,6 +23,7 @@ $macbook: 1400px;
   @media screen and (max-width: $column) {
     margin-top: 150px;
   }
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }
 
 .title {
@@ -81,6 +82,7 @@ $macbook: 1400px;
   width: 100%;
   border-radius: 10px;
   margin-bottom: 80px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }
 
 // Under Cloud Computing
@@ -109,6 +111,7 @@ $macbook: 1400px;
 
 .terminal {
   width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }
 
 .col2 {
@@ -125,6 +128,7 @@ $macbook: 1400px;
 
 .droplet {
   width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }
 
 .row {
@@ -149,6 +153,7 @@ $macbook: 1400px;
   @media screen and (max-width: $column) {
     margin-left: 0;
   }
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }
 
 .icon {
@@ -161,4 +166,5 @@ $macbook: 1400px;
   min-width: 60px;
   min-height: 60px;
   margin: 30px 0px 30px 0px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
 }
