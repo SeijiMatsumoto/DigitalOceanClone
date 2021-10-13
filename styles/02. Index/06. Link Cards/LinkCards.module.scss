@@ -33,7 +33,12 @@ $column: 740px;
   overflow: hidden;
   margin: 12px;
   height: 100%;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+  &:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
   @media screen and (max-width: 1000px) {
     width: 45%;
   }
@@ -55,7 +60,6 @@ $column: 740px;
 .mainImage {
   height: 100%;
   width: 100%;
-  object-fit: cover;
 }
 
 .cardBottom {

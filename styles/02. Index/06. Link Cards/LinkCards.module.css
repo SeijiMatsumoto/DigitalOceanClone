@@ -54,6 +54,14 @@
   overflow: hidden;
   margin: 12px;
   height: 100%;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  -webkit-transition: 0.2s ease-in;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+
+.cardDiv:hover {
   -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
           box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
@@ -86,8 +94,6 @@
 .mainImage {
   height: 100%;
   width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 .cardBottom {

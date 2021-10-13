@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import styles from "../../../styles/02. Index/04. Scale/Scale.module.css";
 
@@ -18,7 +19,7 @@ const Scale: React.FC = () => {
             </div>
             <div className={styles.link}>View pricing {">"}</div>
           </div>
-          <div className={styles.right}>Chart</div>
+          <img className={styles.right} src='/images/graph.png' alt='graph' />
         </div>
         <div className={styles.bottom}>
           <div className={styles.stat}>
