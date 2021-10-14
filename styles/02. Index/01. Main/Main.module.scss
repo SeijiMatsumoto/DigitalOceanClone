@@ -14,7 +14,7 @@ $column: 740px;
     padding-top: 90px;
   }
   @media screen and (max-width: 1260px) {
-    margin-top: 60px;
+    margin-top: 0px;
   }
 }
 
@@ -166,9 +166,6 @@ $column: 740px;
 
 .agreement {
   color: #535772;
-  display: flex;
-  flex-direction: row;
-  display: flex;
   letter-spacing: 1px;
   font-weight: lighter;
   font-size: 15px;
@@ -176,6 +173,6 @@ $column: 740px;
 
 .terms {
   text-decoration: underline;
-  margin-left: 3px;
+  margin-left: 4px;
   cursor: pointer;
 }
