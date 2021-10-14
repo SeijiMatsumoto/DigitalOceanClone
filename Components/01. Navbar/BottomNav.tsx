@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "../../styles/01. Navbar/Navbar.module.css";
 import Image from "next/image";
+import * as RBS from 'react-bootstrap';
 
 const BottomNav: React.FC = () => {
+
   return (
     <div className={styles.bottomNav}>
       <div className={styles.width}>
@@ -14,6 +16,18 @@ const BottomNav: React.FC = () => {
         ></Image>
         <div className={styles.navRow}>
           <div className={styles.navLinks}>
+            <RBS.Dropdown className={styles.dropDown}>
+              <RBS.Dropdown.Toggle className={styles.toggle}>
+                Seiji Matsumoto
+              </RBS.Dropdown.Toggle>
+
+              <RBS.Dropdown.Menu>
+                <RBS.Dropdown.Item href="https://seijimatsumoto.me" target="_blank">Portfolio</RBS.Dropdown.Item>
+                <RBS.Dropdown.Item href='https://linkedin.com/in/matsumoto-seiji' target="_blank">LinkedIn</RBS.Dropdown.Item>
+                <RBS.Dropdown.Item href="https://github.com/SeijiMatsumoto" target="_blank">GitHub</RBS.Dropdown.Item>
+                <RBS.Dropdown.Item href="mailto:sejmoto@gmail.com" target="_blank">Email</RBS.Dropdown.Item>
+              </RBS.Dropdown.Menu>
+            </RBS.Dropdown>
             <div className={styles.navLink}>
               <div className={styles.navText}>Products</div>
               <div className={styles.navArrow}>▼</div>

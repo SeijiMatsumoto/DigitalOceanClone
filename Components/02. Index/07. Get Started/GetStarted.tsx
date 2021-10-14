@@ -2,15 +2,19 @@ import React from 'react';
 import styles from '../../../styles/02. Index/07. Get Started/GetStarted.module.css';
 
 const GetStarted: React.FC = () => {
+
+  const contact = () => {
+    window.open('mailto:sejmoto@gmail.com')
+  }
   return (
     <div className={styles.container}>
       <div className={styles.subDiv}>
         <div className={styles.leftCol}>
-          <div className={styles.title}>Looking to migrate to DigitalOcean?</div>
-          <div className={styles.subtitle}>Leverage free infrastructure credits, robust training, and technical support to ensure a worry-free migration</div>
+          <div className={styles.title}>Looking for a Frontend Software Engineer?</div>
+          <div className={styles.subtitle}>Look no further. Seiji Matsumoto is the perfect fit for this role.</div>
         </div>
         <div className={styles.rightCol}>
-          <button className={styles.btn}>Get started now</button>
+          <button className={styles.btn} onClick={contact}>Contact Seiji</button>
         </div>
       </div>
     </div>
