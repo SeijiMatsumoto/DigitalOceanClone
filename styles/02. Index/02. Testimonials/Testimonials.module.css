@@ -96,6 +96,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 15px;
+  overflow: hidden;
 }
 
 .image {
@@ -110,8 +111,8 @@
 }
 
 .review {
-  margin: 15px 0 15px;
-  font-size: 15px;
+  margin: 10px 0 10px;
+  font-size: 13px;
 }
 
 .person {
