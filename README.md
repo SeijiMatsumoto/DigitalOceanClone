@@ -1,6 +1,6 @@
 # Digital Ocean website clone
 
-Deployed on Netlify: https://do-clone-p29yv.ondigitalocean.app/
+Deployed on DigitalOcean: https://do-clone-p29yv.ondigitalocean.app/
 
 ## About
 
