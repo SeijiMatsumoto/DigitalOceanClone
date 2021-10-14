@@ -63,7 +63,7 @@ const Main: React.FC = () => {
             </form>
             <div className={styles.agreement}>
               By signing up you agree to the
-              <div className={styles.terms}>Terms of Service</div>
+              <u className={styles.terms}>Terms of Service</u>
             </div>
           </div>
         </div>
