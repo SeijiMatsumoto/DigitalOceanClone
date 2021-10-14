@@ -15,9 +15,8 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>Digital Ocean | Clone</title>
+        <title>DigitalOcean | Clone</title>
         <meta name="description" content="Created by Seiji Matsumoto" />
-        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
       <Navbar />
       <Main />
