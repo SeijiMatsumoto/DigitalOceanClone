@@ -25,8 +25,14 @@ const Main: React.FC = () => {
                 className={styles.input}
                 type="text"
                 placeholder="First name"
+                defaultValue="Seiji Matsumoto"
               />
-              <input className={styles.input} type="text" placeholder="Email" />
+              <input
+                className={styles.input}
+                type="text"
+                placeholder="Email"
+                defaultValue="sejmoto@gmail.com"
+              />
               <input
                 className={styles.input}
                 type="text"
