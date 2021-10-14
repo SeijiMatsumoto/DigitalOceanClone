@@ -103,6 +103,7 @@
 
 .icon {
   margin-left: 12px;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 420px) {
