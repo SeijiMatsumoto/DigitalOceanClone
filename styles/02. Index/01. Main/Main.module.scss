@@ -114,7 +114,7 @@ $column: 740px;
 }
 
 .left {
-  width: 100%;
+  width: 80%;
   margin-right: 10px;
 }
 
@@ -146,15 +146,22 @@ $column: 740px;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  width: 40px;
+  // width: 40px;
   border-radius: 8px;
   background-color: rgb(235, 235, 235);
   cursor: pointer;
   transition: 0.2s ease-in-out;
-  margin-left: 15px;
+  &:nth-child(2) {
+    margin-left: 15px;
+  }
   &:hover {
     background-color: rgb(231, 231, 231);
   }
+}
+
+.img {
+  width: 40px;
+  height: 40px;
 }
 
 .agreement {

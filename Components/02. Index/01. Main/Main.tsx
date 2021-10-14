@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import styles from "../../../styles/02. Index/01. Main/Main.module.css";
 import Image from "next/image";
@@ -44,20 +45,18 @@ const Main: React.FC = () => {
                 </div>
                 <div className={styles.right}>
                   <div className={styles.btn}>
-                    <Image
+                    <img
+                      className={styles.img}
                       src="/images/google.png"
                       alt="google"
-                      height={40}
-                      width={40}
-                    ></Image>
+                    />
                   </div>
                   <div className={styles.btn}>
-                    <Image
+                    <img
+                      className={styles.img}
                       src="/images/github.png"
                       alt="github"
-                      height={30}
-                      width={30}
-                    ></Image>
+                    />
                   </div>
                 </div>
               </span>
