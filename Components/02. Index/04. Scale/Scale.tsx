@@ -58,7 +58,7 @@ const Scale: React.FC = () => {
       </div>
       <div className={styles.bottomCont}>
         <div className={styles.iconDiv}>
-          <img className={styles.icon} src="/images/icon.svg" />
+          <img className={styles.icon} src="/images/icon.svg" alt="icon" />
         </div>
         <div className={styles.quote}>
           <div className={styles.quoteTop}>
