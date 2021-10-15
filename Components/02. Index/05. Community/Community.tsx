@@ -8,7 +8,7 @@ const Community: React.FC = () => {
         <div className={styles.textDiv}>
           <div className={styles.title}>Build alongside a robust and supportive community like you</div>
           <div className={styles.desc}>Quickly learn new tech concepts, programming languages, and get answers to your questions from a vibrant developer community.</div>
-          <button className={styles.btn}>Explore the community</button>
+          <button aria-label='explore button' className={styles.btn}>Explore the community</button>
         </div>
         <div className={styles.statsDiv}>
           <div className={styles.stat}>
