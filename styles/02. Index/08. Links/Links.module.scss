@@ -13,22 +13,26 @@ $column: 740px;
 
 .subContainer {
   width: 1200px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  gap: 2em;
   @media screen and (max-width: 1260px) {
     width: 95%;
+    grid-template-columns: 33% 33% 33%;
+    grid-auto-flow: row;
+  }
+  @media screen and (max-width: 900px) {
+    grid-template-columns: 49% 49%;
   }
   @media screen and (max-width: $column) {
     width: 85%;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  }
+  @media (max-width: 600px) {
+    grid-template-columns: 100%;
   }
 }
 
 .linkCol {
-  margin-right: 50px;
-  width: 30%;
   @media screen and (max-width: $column) {
     width: 35%;
     margin-bottom: 40px;
