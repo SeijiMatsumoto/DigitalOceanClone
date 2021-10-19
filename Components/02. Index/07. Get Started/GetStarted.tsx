@@ -14,7 +14,7 @@ const GetStarted: React.FC = () => {
           <div className={styles.subtitle}>Look no further. Seiji Matsumoto is the perfect fit for this role.</div>
         </div>
         <div className={styles.rightCol}>
-          <button className={styles.btn} onClick={contact}>Contact Seiji</button>
+          <button aria-label='link to contact Seiji' className={styles.btn} onClick={contact}>Contact Seiji</button>
         </div>
       </div>
     </div>

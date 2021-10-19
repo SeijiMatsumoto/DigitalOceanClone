@@ -48,14 +48,14 @@ const Main: React.FC = () => {
                     <img
                       className={styles.img}
                       src="/images/google.png"
-                      alt="google"
+                      alt="google icon"
                     />
                   </div>
                   <div className={styles.btn}>
                     <img
                       className={styles.img}
                       src="/images/github.png"
-                      alt="github"
+                      alt="github icon"
                     />
                   </div>
                 </div>

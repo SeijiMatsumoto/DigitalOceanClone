@@ -10,7 +10,6 @@ import LinkCards from "../Components/02. Index/06. Link Cards/LinkCards";
 import GetStarted from "../Components/02. Index/07. Get Started/GetStarted";
 import Links from "../Components/02. Index/08. Links/Links";
 import Footer from "../Components/03. Footer/Footer";
-// import "bootstrap/dist/css/bootstrap.min.css";
 
 const Home: NextPage = () => {
   return (
@@ -23,12 +22,6 @@ const Home: NextPage = () => {
           integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
           crossOrigin="anonymous"
         />
-        {/* <script
-          src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
-          crossOrigin="true"
-        ></script> */}
-
-        <script>var Alert = ReactBootstrap.Alert; </script>
       </Head>
       <Navbar />
       <Main />
