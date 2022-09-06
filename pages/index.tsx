@@ -37,7 +37,7 @@ const Home: NextPage = () => {
       <Scale />
       <Community />
       <LinkCards />
-      <GetStarted />
+      {/* <GetStarted /> */}
       <Links />
       <Footer />
     </div>
